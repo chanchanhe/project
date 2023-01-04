@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import Tool from './components/Tool';
+import { Route, Routes } from 'react-router-dom';
+import Detail from './components/Detail';
 import React, { useState } from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Route, Router, Routes, useNavigate } from 'react-router-dom';
